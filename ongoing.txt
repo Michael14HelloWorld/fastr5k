@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <title>fastr5K</title>
+<meta name="description" content="The <b>fastr5K Program (9 Weeks)</b> is a 5K training plan designed to increase your 5K speed over the 
+  span of 9 weeks. This plan is designed for everybody! Wether you are a 20 year 5K racer or just starting out, we guarantee 
+  this training plan will build you into a winner!"/>
 <meta name="keywords" content="5k, training, running, fitness, training plan, fastr, faster, michael, new, couch to 5k" />
 <link rel="shortcut icon" href="favicon-trophy.ico" type="image/x-icon">
 <meta charset="UTF-8">
