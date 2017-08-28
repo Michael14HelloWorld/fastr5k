@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<title>fastr5K</title>
+<meta name="keywords" content="5k, training, running, fitness, training plan, fastr, faster, michael, new, couch to 5k" />
+<link rel="shortcut icon" href="favicon-trophy.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Code for GOOGLE ANALYTICS-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105571602-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://fitness-static.reebok.com/cdn-1d0cfc056ceacd5/PageFiles/704303/Trail%20Running%203.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">fastr5K.com</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">A 5K Training Plan that Actually Works</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">An Incredibly Simple 5K Training Plan</span><br>
+    <span class="w3-large">Stop wasting valuable time with training plans that take forever to complete.</span>
+    <p><a href="#about2" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity-black w3-hover-opacity-off">Learn more and start today</a></p>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT fastr5K.com</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-trophy w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Building Winners</p>
+      <p>Our number one goal here at Fastr5K is to make <em>you</em> a winner! You have so much untapped potential!</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>We at Fastr5K have such a passion to see <em>you</em> hit your goals. We know how it feels to spin your tires and get no where!</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>The <b>fastr5K Program</b> is especially designed to build <em>you</em> into the 5K racer of your dreams!</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>We love answering <em>your</em> questions here at Fastr5K! No question is too small!.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about2">
+  <h3 class="w3-center">ABOUT THE fastr5K PROGRAM (9 WEEKS)</h3>
+  <p class="w3-center"><em>Can you run your target pace for one minuate?</em></p>
+  <p>The <b>fastr5K Program (9 Weeks)</b> is a 5K training plan designed to increase your 5K speed over the 
+  span of 9 weeks. This plan is designed for everybody! Wether you are a 20 year 5K racer or just starting out, we guarantee 
+  this training plan will build you into a winner! You want to the way it works? We thought so! The success of the <b>fastr5K Program
+  (9 Weeks)</b> lies in it's simplicity. Most times, training plans are too complicated, and require a great deal of <em>extra</em>
+  work that you really don't need in order to break your 5K PR. The <b>fastr5K Program (9 Weeks)</b> alternates running with walking.
+  For example: John Doe has a 5K PR of 23:50 which is a pace of 7:40min/mile. When John Doe jumps onto the <b>fastr5K Program (9 Weeks)</b>,
+  he determines the pace that he wants to run his 5K after the training plan. The only requirement for this training plan is
+  that you are able to maintian your target pace for one minuate! So, John Doe decides that he wants to run his 
+  5K at an average pace of 6:26min/mile, which will give him a finishing time of 19:57. Over the next 9 weeks, the <b>fastr5K Program (9 Weeks)</b>
+  will alternate running and walking to build John Doe the endurance to successfully run his 5K in 19:57!
+  </p>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black w3-round w3-center" style="float: center">Plan Preview</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Plan Preview</h2>
+      </header>
+      <div class="w3-container">
+        <p><em>"Run" means running at your target pace.</em></p>
+        <h3>Week 1 (3 days a week)</h3>
+        <ol>
+          <li>Warm Up</li>
+          <li>Run for 1 minuate</li>
+          <li>Walk for 1 1/2 minuate</li>
+          <li>Repeat for 20 minuates</li>
+          <li>Cool Down</li>
+        </ol>
+        <h3>Week 9 (3 days a week)</h3>
+        <ol>
+          <li>Warm Up</li>
+          <li>Run for 30 minuates</li>
+          <li>Cool Down</li>
+        </ol>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>fastr5K.com</p>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
